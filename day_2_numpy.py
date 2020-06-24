@@ -1,3 +1,4 @@
+# 数组的计算：广播
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -5,13 +6,13 @@ import seaborn;seaborn.set()
 
 a = np.array([0,1,2])
 b = np.array([5,5,5])
-#print(a + b)
+# print(a + b)
 
-#如果两个数组的维度不一样可以进行计算操作吗
-#print(a + 5)
+# 如果两个数组的维度不一样可以进行计算操作吗
+# print(a + 5)
 M = np.ones(3)
-#print(M)
-#print(M + a)
+# print(M)
+# print(M + a)
 
 a = np.arange(3)
 b = np.arange(3)[:,np.newaxis]
