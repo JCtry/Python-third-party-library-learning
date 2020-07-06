@@ -49,7 +49,7 @@ X_contered = X - Xmean # 广播机制
 # print(X_contered.mean(0))
 
 # numpy 比较，掩码和布尔逻辑
-rainfall = pd.read_csv('Python\data\Seattle2014.csv')['PRCP'].values
+rainfall = pd.read_csv('Data\Seattle2014.csv')['PRCP'].values
 # print(rainfall)
 inches = rainfall / 254 # 将毫米转换为英寸
 # print(inches)
